@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T07:06:12.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250804_4307a7c7",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754299800, "price": 23077.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1754310600, "price": 23081.75, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1754299800, "price": 6310.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1754310600, "price": 6305.0, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新（ESは直近高値を更新せず）", "notes": "M15確定足を同一UTC時刻で比較。近接する連続シグナルは代表点へ統合。"},
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:06:12.000Z",
+      "updatedAt": "2026-07-25T07:06:12.000Z"
+    },
+    {
+      "id": "smt_20250804_35e3ddbc",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754326800, "price": 23283.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1754328600, "price": 23285.25, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1754326800, "price": 6352.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1754328600, "price": 6351.25, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新", "notes": "M15確定足を同一UTC時刻で比較。近接する連続シグナルは代表点へ統合。"},
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:06:12.000Z",
+      "updatedAt": "2026-07-25T07:06:12.000Z"
+    },
+    {
+      "id": "smt_20250805_027bda94",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754354700, "price": 23374.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1754375400, "price": 23394.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1754354700, "price": 6376.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1754375400, "price": 6375.25, "priceSource": "high"}
+      },
+      "context": {"session": "London", "reason": "NQのみ高値更新", "notes": "M15確定足を同一UTC時刻で比較。近接する連続シグナルは代表点へ統合。"},
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:06:12.000Z",
+      "updatedAt": "2026-07-25T07:06:12.000Z"
+    },
+    {
+      "id": "smt_20250805_07ebe3e8",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754377200, "price": 23397.25, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1754395200, "price": 23404.25, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1754377200, "price": 6377.5, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1754395200, "price": 6376.75, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新", "notes": "M15確定足を同一UTC時刻で比較。近接する連続シグナルは代表点へ統合。"},
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:06:12.000Z",
+      "updatedAt": "2026-07-25T07:06:12.000Z"
+    },
+    {
+      "id": "smt_20250805_8ff5c92e",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754405100, "price": 23138.25, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1754426700, "price": 23084.5, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1754405100, "price": 6315.5, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1754426700, "price": 6322.5, "priceSource": "low"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ安値更新（ESは直近安値を更新せず）", "notes": "M15確定足を同一UTC時刻で比較。近接する連続シグナルは代表点へ統合。"},
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:06:12.000Z",
+      "updatedAt": "2026-07-25T07:06:12.000Z"
+    }
+  ]
+}
