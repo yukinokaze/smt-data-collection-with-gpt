@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T10:48:10Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt-d64bf63ee6c7a1d1",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1784865600, "price": 28465.5, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1784875500, "price": 28481.0, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1784865600, "price": 7435.25, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1784875500, "price": 7433.75, "priceSource": "low"}
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみが直前の安値を更新し、NQは安値を切り上げた。",
+        "notes": "M15の確定足のみ使用。対応時刻が一致するNQ/ESの構造的高値・安値を比較。"
+      },
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T10:48:10Z",
+      "updatedAt": "2026-07-25T10:48:10Z"
+    },
+    {
+      "id": "smt-6109a0263df754b4",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1784886300, "price": 28704.25, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1784893500, "price": 28700.0, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1784886300, "price": 7467.5, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1784893500, "price": 7469.0, "priceSource": "high"}
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみが直前の高値を更新し、NQは高値を切り下げた。",
+        "notes": "M15の確定足のみ使用。対応時刻が一致するNQ/ESの構造的高値・安値を比較。"
+      },
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T10:48:10Z",
+      "updatedAt": "2026-07-25T10:48:10Z"
+    },
+    {
+      "id": "smt-91efa9eb78e3edd9",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1784901600, "price": 28304.25, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1784904300, "price": 28254.5, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1784901600, "price": 7431.5, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1784904300, "price": 7432.75, "priceSource": "low"}
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみが直前の安値を更新し、ESは安値を切り上げた。",
+        "notes": "M15の確定足のみ使用。対応時刻が一致するNQ/ESの構造的高値・安値を比較。"
+      },
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T10:48:10Z",
+      "updatedAt": "2026-07-25T10:48:10Z"
+    },
+    {
+      "id": "smt-e432b4801003714b",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1784904300, "price": 28254.5, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1784919600, "price": 28219.75, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1784904300, "price": 7432.75, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1784919600, "price": 7434.0, "priceSource": "low"}
+      },
+      "context": {
+        "session": "NY",
+        "reason": "反発後の再下落でNQのみが安値を更新し、ESは安値を切り上げた。",
+        "notes": "M15の確定足のみ使用。対応時刻が一致するNQ/ESの構造的高値・安値を比較。"
+      },
+      "dataQualityFlags": ["verified", "missing_data"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T10:48:10Z",
+      "updatedAt": "2026-07-25T10:48:10Z"
+    }
+  ]
+}
