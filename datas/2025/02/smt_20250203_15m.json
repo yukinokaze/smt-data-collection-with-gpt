@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T18:00:22.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250203_c41a7e2f",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1738570500,
+          "price": 21252.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1738580400,
+          "price": 21272.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1738570500,
+          "price": 5988.75,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1738580400,
+          "price": 5988.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "NQのみ高値更新",
+        "notes": "同時刻が揃う確定済みM15足を使用"
+      },
+      "dataQualityFlags": [
+        "verified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T18:00:22.000Z",
+      "updatedAt": "2026-07-25T18:00:22.000Z"
+    }
+  ]
+}
