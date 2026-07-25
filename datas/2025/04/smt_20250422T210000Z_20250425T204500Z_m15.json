@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T22:47:23Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "nq-es-15m-20250423T140000Z-20250423T143000Z-bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1745416800,
+          "price": 19144.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1745418600,
+          "price": 19165.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1745416800,
+          "price": 5499.75,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1745418600,
+          "price": 5499.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQ formed a higher high while ES formed a lower high.",
+        "notes": "M15 swing comparison using aligned closed candles."
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T22:47:23Z",
+      "updatedAt": "2026-07-25T22:47:23Z"
+    },
+    {
+      "id": "nq-es-15m-20250425T104500Z-20250425T143000Z-bullish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1745577900,
+          "price": 19218.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1745591400,
+          "price": 19233.75,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1745577900,
+          "price": 5486.75,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1745591400,
+          "price": 5480.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ES formed a lower low while NQ formed a higher low.",
+        "notes": "M15 swing comparison using aligned closed candles."
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T22:47:23Z",
+      "updatedAt": "2026-07-25T22:47:23Z"
+    },
+    {
+      "id": "nq-es-15m-20250425T133000Z-20250425T140000Z-bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1745587800,
+          "price": 19363.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1745589600,
+          "price": 19405.75,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1745587800,
+          "price": 5524.75,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1745589600,
+          "price": 5523.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQ formed a higher high while ES formed a lower high.",
+        "notes": "M15 swing comparison using aligned closed candles."
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T22:47:23Z",
+      "updatedAt": "2026-07-25T22:47:23Z"
+    }
+  ]
+}
