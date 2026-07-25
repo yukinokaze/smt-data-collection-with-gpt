@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T14:55:00.000Z",
+  "filters": {
+    "format": "json",
+    "timeframe": "15m",
+    "periodStart": "2025-08-01T21:00:00Z",
+    "periodEnd": "2025-08-06T20:45:00Z",
+    "primaryMarket": "CME_MINI:NQ1!",
+    "comparisonMarket": "CME_MINI:ES1!"
+  },
+  "records": [
+    {
+      "id": "smt_20250804_6f7a19c2",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "UTC",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1754316000,
+          "price": 23264.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1754318700,
+          "price": 23254.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1754316000,
+          "price": 6340.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1754318700,
+          "price": 6345.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": "共通時刻の確定M15足を使用。2本左右でB点を確認。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:55:00.000Z",
+      "updatedAt": "2026-07-25T14:55:00.000Z"
+    },
+    {
+      "id": "smt_20250804_c31d8b4e",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "UTC",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1754326800,
+          "price": 23283.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1754328600,
+          "price": 23285.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1754326800,
+          "price": 6352.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1754328600,
+          "price": 6351.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ高値更新",
+        "notes": "共通時刻の確定M15足を使用。2本左右でB点を確認。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:55:00.000Z",
+      "updatedAt": "2026-07-25T14:55:00.000Z"
+    }
+  ]
+}
