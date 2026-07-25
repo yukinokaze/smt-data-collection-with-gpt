@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T22:31:36.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250421_5d9af3c3",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1745203500,
+          "price": 18189.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1745218800,
+          "price": 18172.25,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1745203500,
+          "price": 5259.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1745218800,
+          "price": 5260.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "NQのみ安値更新",
+        "notes": "処理範囲内のM15スイング比較。週末休場および日次メンテナンス由来の欠損は許容条件に従い無視。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T22:31:36.000Z",
+      "updatedAt": "2026-07-25T22:31:36.000Z"
+    }
+  ]
+}
