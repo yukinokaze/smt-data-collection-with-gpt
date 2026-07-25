@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T23:00:27.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250428_6839a1d2",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1745860500,
+          "price": 19257.25,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1745861400,
+          "price": 19263.5,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1745860500,
+          "price": 5494.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1745861400,
+          "price": 5492.0,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ安値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T23:00:27.000Z",
+      "updatedAt": "2026-07-25T23:00:27.000Z"
+    },
+    {
+      "id": "smt_20250429_b47c2e91",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1745938800,
+          "price": 19615.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1745942400,
+          "price": 19606.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1745938800,
+          "price": 5575.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1745942400,
+          "price": 5577.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T23:00:27.000Z",
+      "updatedAt": "2026-07-25T23:00:27.000Z"
+    },
+    {
+      "id": "smt_20250430_d05f7ac3",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1746020700,
+          "price": 19106.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1746021600,
+          "price": 19103.75,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1746020700,
+          "price": 5455.5,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1746021600,
+          "price": 5457.0,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T23:00:27.000Z",
+      "updatedAt": "2026-07-25T23:00:27.000Z"
+    }
+  ]
+}
