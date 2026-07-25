@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T19:46:13.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250306_73d4b919",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1741288500,
+          "price": 20009.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1741289400,
+          "price": 20003.0,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1741288500,
+          "price": 5720.0,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1741289400,
+          "price": 5720.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ直前安値を更新し、ESは直前安値を更新しなかった",
+        "notes": "M15の隣接する安値比較。処理範囲内の少数欠損は許容条件に従い無視。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T19:46:13.000Z",
+      "updatedAt": "2026-07-25T19:46:13.000Z"
+    }
+  ]
+}
