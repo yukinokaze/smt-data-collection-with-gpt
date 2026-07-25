@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T10:22:56.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250819_0915_1330_es_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1755594900,
+          "price": 23804.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1755610200,
+          "price": 23770.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1755594900,
+          "price": 6469.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1755610200,
+          "price": 6469.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみA点高値を更新し、NQは更新せず",
+        "notes": "M15の確定足・wick高値で判定"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T10:22:56.000Z",
+      "updatedAt": "2026-07-25T10:22:56.000Z"
+    },
+    {
+      "id": "smt_20250819_1800_2000_es_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1755633600,
+          "price": 23487.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1755640800,
+          "price": 23485.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1755633600,
+          "price": 6436.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1755640800,
+          "price": 6438.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみA点高値を更新し、NQは更新せず",
+        "notes": "M15の確定足・wick高値で判定"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T10:22:56.000Z",
+      "updatedAt": "2026-07-25T10:22:56.000Z"
+    }
+  ]
+}
