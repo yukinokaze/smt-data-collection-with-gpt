@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T23:33:22.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250506_6b3e91d4",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1746540000,
+          "price": 19739.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1746562500,
+          "price": 19809.0,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1746539100,
+          "price": 5607.0,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1746562500,
+          "price": 5605.0,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ直近スイング安値を更新し、NQは直近スイング安値を更新しなかった",
+        "notes": "M15同期足を使用。NQ A点は2025-05-06T14:00:00Z、ES A点は2025-05-06T13:45:00Z、B点は両市場とも2025-05-06T20:15:00Z。処理範囲内に一部データ欠損あり。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T23:33:22.000Z",
+      "updatedAt": "2026-07-25T23:33:22.000Z"
+    }
+  ]
+}
