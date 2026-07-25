@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T15:31:57.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20260724_f1b9264d",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784846700,
+          "price": 28732.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1784856600,
+          "price": 28685.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784846700,
+          "price": 7454.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784856600,
+          "price": 7459.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "Asia",
+        "reason": "ESのみ高値更新、NQは高値切り下げ",
+        "notes": "M15確定足の同期比較。約10本に1本までの欠損許容条件内で検出。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:31:57.000Z",
+      "updatedAt": "2026-07-25T15:31:57.000Z"
+    },
+    {
+      "id": "smt_20260724_52950b8b",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784886300,
+          "price": 28704.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1784895300,
+          "price": 28698.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784886300,
+          "price": 7467.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784895300,
+          "price": 7467.75,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "ESのみ高値更新、NQは高値切り下げ",
+        "notes": "M15確定足の同期比較。ESの更新幅が小さいためqualityLabelはvalid。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:31:57.000Z",
+      "updatedAt": "2026-07-25T15:31:57.000Z"
+    },
+    {
+      "id": "smt_20260724_f7d7ef80",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784904300,
+          "price": 28254.5,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1784919600,
+          "price": 28219.75,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784904300,
+          "price": 7432.75,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784919600,
+          "price": 7434.0,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新、ESは安値切り上げ",
+        "notes": "M15確定足の同期比較。両市場の方向不一致が明瞭。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:31:57.000Z",
+      "updatedAt": "2026-07-25T15:31:57.000Z"
+    }
+  ]
+}
