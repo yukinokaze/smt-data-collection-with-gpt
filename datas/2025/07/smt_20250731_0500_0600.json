@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T14:30:23.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250731_ebecf423",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1753938000,
+          "price": 23809.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1753941600,
+          "price": 23806.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1753938000,
+          "price": 6458.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1753941600,
+          "price": 6459.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "ESのみ高値更新",
+        "notes": "NQはA点高値を更新せず、ESのみB点で高値を更新。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:30:23.000Z",
+      "updatedAt": "2026-07-25T14:30:23.000Z"
+    }
+  ]
+}
