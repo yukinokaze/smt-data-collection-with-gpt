@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T15:18:17.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20260717_178281f4",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784297700,
+          "price": 28887.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1784304000,
+          "price": 28955.75,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784297700,
+          "price": 7539.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784304000,
+          "price": 7536.75,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ高値更新",
+        "notes": "M15の局所スイング比較。約10%以内の欠損は許容して検出。"
+      },
+      "dataQualityFlags": [
+        "unverified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:18:17.000Z",
+      "updatedAt": "2026-07-25T15:18:17.000Z"
+    },
+    {
+      "id": "smt_20260721_7dd27c77",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784640600,
+          "price": 29129.5,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1784642400,
+          "price": 29064.25,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784640600,
+          "price": 7505.5,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784642400,
+          "price": 7512.5,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新",
+        "notes": "M15の局所スイング比較。約10%以内の欠損は許容して検出。"
+      },
+      "dataQualityFlags": [
+        "unverified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:18:17.000Z",
+      "updatedAt": "2026-07-25T15:18:17.000Z"
+    },
+    {
+      "id": "smt_20260722_febb1ca4",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784733300,
+          "price": 29342.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1784736900,
+          "price": 29335.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784733300,
+          "price": 7559.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784736900,
+          "price": 7563.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": "M15の局所スイング比較。約10%以内の欠損は許容して検出。"
+      },
+      "dataQualityFlags": [
+        "unverified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:18:17.000Z",
+      "updatedAt": "2026-07-25T15:18:17.000Z"
+    },
+    {
+      "id": "smt_20260723_ed8d32e3",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "weak",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784829600,
+          "price": 28542.5,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1784831400,
+          "price": 28545.0,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784829600,
+          "price": 7428.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784831400,
+          "price": 7426.75,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ安値更新",
+        "notes": "M15の局所スイング比較。約10%以内の欠損は許容して検出。"
+      },
+      "dataQualityFlags": [
+        "unverified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T15:18:17.000Z",
+      "updatedAt": "2026-07-25T15:18:17.000Z"
+    }
+  ]
+}
