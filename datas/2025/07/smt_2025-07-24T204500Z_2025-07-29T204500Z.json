@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T14:17:38Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "nq-es-15m-20250725-1815-bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753460100, "price": 23471.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753467300, "price": 23459.75, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753460100, "price": 6424.25, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753467300, "price": 6430.25, "priceSource": "high"}
+      },
+      "context": {"session": "New York", "reason": "ES formed a higher high while NQ formed a lower high.", "notes": "Aligned closed M15 candles; intermittent missing candles were tolerated under the project rule."},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:17:38Z",
+      "updatedAt": "2026-07-25T14:17:38Z"
+    },
+    {
+      "id": "nq-es-15m-20250725-1915-bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753467300, "price": 23459.75, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753470900, "price": 23455.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753467300, "price": 6430.25, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753470900, "price": 6431.0, "priceSource": "high"}
+      },
+      "context": {"session": "New York", "reason": "ES extended to a higher high while NQ remained below its prior high.", "notes": "Aligned closed M15 candles; intermittent missing candles were tolerated under the project rule."},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:17:38Z",
+      "updatedAt": "2026-07-25T14:17:38Z"
+    },
+    {
+      "id": "nq-es-15m-20250728-1200-bullish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753699500, "price": 23484.75, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1753704000, "price": 23486.25, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1753699500, "price": 6433.5, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1753704000, "price": 6433.25, "priceSource": "low"}
+      },
+      "context": {"session": "London", "reason": "ES formed a lower low while NQ held a higher low.", "notes": "Aligned closed M15 candles; intermittent missing candles were tolerated under the project rule."},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:17:38Z",
+      "updatedAt": "2026-07-25T14:17:38Z"
+    },
+    {
+      "id": "nq-es-15m-20250729-1200-bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753783200, "price": 23609.0, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753790400, "price": 23613.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753783200, "price": 6441.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753790400, "price": 6440.25, "priceSource": "high"}
+      },
+      "context": {"session": "London", "reason": "NQ formed a higher high while ES formed a lower high.", "notes": "Aligned closed M15 candles; intermittent missing candles were tolerated under the project rule."},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:17:38Z",
+      "updatedAt": "2026-07-25T14:17:38Z"
+    },
+    {
+      "id": "nq-es-15m-20250729-1330-bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753783200, "price": 23609.0, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753795800, "price": 23652.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753783200, "price": 6441.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753795800, "price": 6440.0, "priceSource": "high"}
+      },
+      "context": {"session": "New York", "reason": "NQ materially extended above its prior high while ES remained below its prior high.", "notes": "Aligned closed M15 candles; intermittent missing candles were tolerated under the project rule."},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T14:17:38Z",
+      "updatedAt": "2026-07-25T14:17:38Z"
+    }
+  ]
+}
