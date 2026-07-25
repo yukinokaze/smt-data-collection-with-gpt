@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T06:40:06.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250725_79f0a12c",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753440300, "price": 23391.25, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753446600, "price": 23386.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753440300, "price": 6410.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753446600, "price": 6410.25, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": ""},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:40:06.000Z",
+      "updatedAt": "2026-07-25T06:40:06.000Z"
+    },
+    {
+      "id": "smt_20250725_c2b83d41",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753448400, "price": 23346.75, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1753450200, "price": 23330.75, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1753448400, "price": 6402.0, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1753450200, "price": 6402.5, "priceSource": "low"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ安値更新", "notes": ""},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:40:06.000Z",
+      "updatedAt": "2026-07-25T06:40:06.000Z"
+    },
+    {
+      "id": "smt_20250725_4ad671e8",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753453800, "price": 23423.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753456500, "price": 23422.75, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753453800, "price": 6414.25, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753456500, "price": 6415.5, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": ""},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:40:06.000Z",
+      "updatedAt": "2026-07-25T06:40:06.000Z"
+    },
+    {
+      "id": "smt_20250725_a63fe905",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753461000, "price": 23476.0, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753470900, "price": 23455.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753461000, "price": 6424.5, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753470900, "price": 6431.0, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": ""},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:40:06.000Z",
+      "updatedAt": "2026-07-25T06:40:06.000Z"
+    }
+  ]
+}
