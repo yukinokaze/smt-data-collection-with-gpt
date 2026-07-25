@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T21:30:23.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250404_c195fe8e",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1743777900,
+          "price": 17656.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1743786000,
+          "price": 17661.0,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1743777900,
+          "price": 5153.5,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1743786000,
+          "price": 5147.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ安値更新（NQは安値を更新せず）",
+        "notes": "M15。約5日分を処理。散発的な欠損は許容条件に基づき無視。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T21:30:23.000Z",
+      "updatedAt": "2026-07-25T21:30:23.000Z"
+    }
+  ]
+}
