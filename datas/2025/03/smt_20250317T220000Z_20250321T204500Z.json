@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T20:31:39.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250318_9f21c4a7",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1742310000,
+          "price": 19604.25,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1742312700,
+          "price": 19628.0,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1742310000,
+          "price": 5653.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1742312700,
+          "price": 5650.75,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ安値更新（NQは安値切り上げ）",
+        "notes": "M15の対応するスイング安値を比較"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T20:31:39.000Z",
+      "updatedAt": "2026-07-25T20:31:39.000Z"
+    },
+    {
+      "id": "smt_20250321_b6d83e10",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1742571000,
+          "price": 19679.25,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1742571900,
+          "price": 19680.5,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1742571000,
+          "price": 5661.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1742571900,
+          "price": 5660.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ安値更新（NQは安値切り上げ）",
+        "notes": "M15の連続する対応スイング安値を比較"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T20:31:39.000Z",
+      "updatedAt": "2026-07-25T20:31:39.000Z"
+    }
+  ]
+}
