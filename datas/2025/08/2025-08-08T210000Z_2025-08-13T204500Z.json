@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T07:11:54.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250811_5758deb7",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754919000, "price": 23680.75, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1754923500, "price": 23719.25, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1754919000, "price": 6410.0, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1754923500, "price": 6406.75, "priceSource": "low"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ安値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250812_4247c555",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754973900, "price": 23676.75, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1754979300, "price": 23668.75, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1754973900, "price": 6409.75, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1754979300, "price": 6411.0, "priceSource": "high"}
+      },
+      "context": {"session": "Asia", "reason": "ESのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250812_8497e0cd",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1754979300, "price": 23668.75, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1754982000, "price": 23675.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1754979300, "price": 6411.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1754982000, "price": 6410.5, "priceSource": "high"}
+      },
+      "context": {"session": "London", "reason": "NQのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250812_4fc7a666",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755004500, "price": 23722.75, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1755005400, "price": 23710.25, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1755004500, "price": 6419.0, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1755005400, "price": 6419.25, "priceSource": "low"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ安値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250812_df0f5d88",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755011700, "price": 23861.25, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1755012600, "price": 23859.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1755011700, "price": 6451.25, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1755012600, "price": 6451.5, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250812_146d31d3",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755027900, "price": 23950.0, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1755031500, "price": 23953.5, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1755027900, "price": 6470.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1755031500, "price": 6469.75, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250813_ffe45e14",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755069300, "price": 23988.0, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1755071100, "price": 23991.0, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1755069300, "price": 6477.25, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1755071100, "price": 6476.5, "priceSource": "high"}
+      },
+      "context": {"session": "London", "reason": "NQのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250813_42c49366",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755084600, "price": 23984.25, "priceSource": "low"},
+        "primaryB": {"timestampUtc": 1755085500, "price": 23986.25, "priceSource": "low"},
+        "comparisonA": {"timestampUtc": 1755084600, "price": 6479.5, "priceSource": "low"},
+        "comparisonB": {"timestampUtc": 1755085500, "price": 6479.25, "priceSource": "low"}
+      },
+      "context": {"session": "London", "reason": "ESのみ安値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250813_c19d8f2a",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755091800, "price": 24068.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1755092700, "price": 24061.0, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1755091800, "price": 6496.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1755092700, "price": 6502.5, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    },
+    {
+      "id": "smt_20250813_e231e372",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1755108000, "price": 23954.25, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1755112500, "price": 23954.0, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1755108000, "price": 6482.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1755112500, "price": 6487.5, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": "M15 NQ/ESの対応スイング比較"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:11:54.000Z",
+      "updatedAt": "2026-07-25T07:11:54.000Z"
+    }
+  ]
+}
