@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T07:10:00.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250806_2f6a91c4",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1754447400,
+          "price": 23168.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1754451900,
+          "price": 23170.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1754447400,
+          "price": 6341.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1754451900,
+          "price": 6340.75,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "Asia",
+        "reason": "NQのみ高値更新（NQ 23168.25→23170.0、ES 6341.5→6340.75）",
+        "notes": "M15確定足。欠損許容条件内で判定。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:10:00.000Z",
+      "updatedAt": "2026-07-25T07:10:00.000Z"
+    },
+    {
+      "id": "smt_20250806_8bc70e31",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1754477100,
+          "price": 23107.25,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1754481600,
+          "price": 23140.25,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1754477100,
+          "price": 6331.75,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1754481600,
+          "price": 6330.75,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "ESのみ安値更新（NQ 23107.25→23140.25、ES 6331.75→6330.75）",
+        "notes": "M15確定足。欠損許容条件内で判定。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:10:00.000Z",
+      "updatedAt": "2026-07-25T07:10:00.000Z"
+    },
+    {
+      "id": "smt_20250807_d4195a62",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1754559900,
+          "price": 23608.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1754564400,
+          "price": 23639.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1754559900,
+          "price": 6420.5,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1754564400,
+          "price": 6417.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "NQのみ高値更新（NQ 23608.5→23639.0、ES 6420.5→6417.0）",
+        "notes": "M15確定足。欠損許容条件内で判定。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T07:10:00.000Z",
+      "updatedAt": "2026-07-25T07:10:00.000Z"
+    }
+  ]
+}
