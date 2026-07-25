@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T20:15:22.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250313_0815_es_bullish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1741846500,
+          "price": 19400.75,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1741853700,
+          "price": 19408.75,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1741846500,
+          "price": 5563.5,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1741853700,
+          "price": 5559.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "ESのみ安値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T20:15:22.000Z",
+      "updatedAt": "2026-07-25T20:15:22.000Z"
+    },
+    {
+      "id": "smt_20250314_1700_es_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1741970700,
+          "price": 19707.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1741971600,
+          "price": 19707.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1741970700,
+          "price": 5635.25,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1741971600,
+          "price": 5639.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T20:15:22.000Z",
+      "updatedAt": "2026-07-25T20:15:22.000Z"
+    },
+    {
+      "id": "smt_20250314_1900_nq_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1741971600,
+          "price": 19707.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1741978800,
+          "price": 19712.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1741971600,
+          "price": 5639.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1741978800,
+          "price": 5638.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ高値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T20:15:22.000Z",
+      "updatedAt": "2026-07-25T20:15:22.000Z"
+    },
+    {
+      "id": "smt_20250317_1345_es_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1742218200,
+          "price": 19847.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1742219100,
+          "price": 19827.75,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1742218200,
+          "price": 5671.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1742219100,
+          "price": 5674.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": ""
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T20:15:22.000Z",
+      "updatedAt": "2026-07-25T20:15:22.000Z"
+    }
+  ]
+}
