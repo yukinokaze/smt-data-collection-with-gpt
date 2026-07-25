@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T06:31:50.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20260721_16a57ad0",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784558700,
+          "price": 28874.0,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1784559600,
+          "price": 28873.25,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784558700,
+          "price": 7500.75,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784559600,
+          "price": 7502.0,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新（NQ: 28874.0→28873.25、ES: 7500.75→7502.0）",
+        "notes": "B点はNQ側M15スイング安値。直後のM15足で安値切り上げを確認。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:31:50.000Z",
+      "updatedAt": "2026-07-25T06:31:50.000Z"
+    },
+    {
+      "id": "smt_20260721_16412343",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784567700,
+          "price": 28910.25,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1784568600,
+          "price": 28900.75,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784567700,
+          "price": 7499.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784568600,
+          "price": 7499.25,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新（NQ: 28910.25→28900.75、ES: 7499.25→7499.25）",
+        "notes": "B点はNQ側M15スイング安値。ESは同値安値を維持し、直後のM15足で両市場の安値反転を確認。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:31:50.000Z",
+      "updatedAt": "2026-07-25T06:31:50.000Z"
+    }
+  ]
+}
