@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T18:16:08.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250205_dba99388",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1738685700,
+          "price": 21685.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1738701900,
+          "price": 21685.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1738685700,
+          "price": 6066.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1738701900,
+          "price": 6067.75,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": "M15の対応する高値を比較。NQは前回高値を更新せず、ESのみ更新。"
+      },
+      "dataQualityFlags": [
+        "verified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T18:16:08.000Z",
+      "updatedAt": "2026-07-25T18:16:08.000Z"
+    },
+    {
+      "id": "smt_20250206_cf885ddd",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1738832400,
+          "price": 21829.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1738851300,
+          "price": 21780.75,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1738832400,
+          "price": 6105.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1738851300,
+          "price": 6106.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新",
+        "notes": "M15の対応する高値を比較。NQは前回高値を更新せず、ESのみ更新。"
+      },
+      "dataQualityFlags": [
+        "verified",
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T18:16:08.000Z",
+      "updatedAt": "2026-07-25T18:16:08.000Z"
+    }
+  ]
+}
