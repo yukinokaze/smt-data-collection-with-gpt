@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T22:02:30.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250414_68a90e21",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1744617600,
+          "price": 19182.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1744621200,
+          "price": 19146.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1744617600,
+          "price": 5472.75,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1744621200,
+          "price": 5474.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "ESのみ高値更新（NQは高値切り下げ）",
+        "notes": "M15 OHLCを時刻整列して判定"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T22:02:30.000Z",
+      "updatedAt": "2026-07-25T22:02:30.000Z"
+    },
+    {
+      "id": "smt_20250415_b40bb57e",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1744732800,
+          "price": 19077.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1744733700,
+          "price": 19090.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1744732800,
+          "price": 5468.75,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1744733700,
+          "price": 5468.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ高値更新（ESは高値切り下げ）",
+        "notes": "M15 OHLCを時刻整列して判定"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T22:02:30.000Z",
+      "updatedAt": "2026-07-25T22:02:30.000Z"
+    }
+  ]
+}
