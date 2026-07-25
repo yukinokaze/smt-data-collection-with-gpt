@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-25T06:17:04.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20260720_e1210793",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784515500,
+          "price": 28948.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1784522700,
+          "price": 28942.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784515500,
+          "price": 7511.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784522700,
+          "price": 7515.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "Asia",
+        "reason": "ESのみ高値更新（NQ: 28948.0→28942.0、ES: 7511.0→7515.0）",
+        "notes": "B点はES側M15スイング高値。A点はNQ・ES両側の局所スイング高値。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:17:04.000Z",
+      "updatedAt": "2026-07-25T06:17:04.000Z"
+    },
+    {
+      "id": "smt_20260720_d7b4a011",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1784522700,
+          "price": 28942.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1784532600,
+          "price": 28926.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1784522700,
+          "price": 7515.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1784532600,
+          "price": 7519.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "ESのみ高値更新（NQ: 28942.0→28926.0、ES: 7515.0→7519.5）",
+        "notes": "B点はES側M15スイング高値。直後のM15足で高値切り下げを確認。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-25T06:17:04.000Z",
+      "updatedAt": "2026-07-25T06:17:04.000Z"
+    }
+  ]
+}
