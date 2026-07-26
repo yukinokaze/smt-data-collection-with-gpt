@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T00:45:26.000Z",
+  "filters": {"format": "json"},
+  "records": [
+    {"id":"smt_20250530_59e7f6e1","schemaVersion":1,"status":"active","smtType":"bearish","smtMarket":"primary","qualityLabel":"valid","timeframe":"15m","timezone":"Asia/Tokyo","primaryMarket":{"exchange":"CME_MINI","symbol":"NQ1!"},"comparisonMarket":{"exchange":"CME_MINI","symbol":"ES1!"},"points":{"primaryA":{"timestampUtc":1748583000,"price":21412.25,"priceSource":"high"},"primaryB":{"timestampUtc":1748602800,"price":21421.0,"priceSource":"high"},"comparisonA":{"timestampUtc":1748583000,"price":5923.0,"priceSource":"high"},"comparisonB":{"timestampUtc":1748602800,"price":5922.75,"priceSource":"high"}},"context":{"session":"London","reason":"NQのみ高値更新","notes":"M15の対応する局所スイングを比較。近接候補は統合。"},"dataQualityFlags":["verified"],"duplicateOfIds":[],"createdAt":"2026-07-26T00:45:26.000Z","updatedAt":"2026-07-26T00:45:26.000Z"},
+    {"id":"smt_20250530_52a18f14","schemaVersion":1,"status":"active","smtType":"bullish","smtMarket":"primary","qualityLabel":"valid","timeframe":"15m","timezone":"Asia/Tokyo","primaryMarket":{"exchange":"CME_MINI","symbol":"NQ1!"},"comparisonMarket":{"exchange":"CME_MINI","symbol":"ES1!"},"points":{"primaryA":{"timestampUtc":1748622600,"price":21079.0,"priceSource":"low"},"primaryB":{"timestampUtc":1748623500,"price":21071.5,"priceSource":"low"},"comparisonA":{"timestampUtc":1748622600,"price":5853.25,"priceSource":"low"},"comparisonB":{"timestampUtc":1748623500,"price":5858.0,"priceSource":"low"}},"context":{"session":"NY","reason":"NQのみ安値更新","notes":"M15の対応する局所スイングを比較。近接候補は統合。"},"dataQualityFlags":["verified"],"duplicateOfIds":[],"createdAt":"2026-07-26T00:45:26.000Z","updatedAt":"2026-07-26T00:45:26.000Z"}
+  ]
+}
