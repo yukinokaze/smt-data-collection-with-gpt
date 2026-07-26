@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T02:15:25.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250630_b28559fc",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1751305500,
+          "price": 22786.25,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1751308200,
+          "price": 22781.0,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1751305500,
+          "price": 6224.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1751308200,
+          "price": 6227.0,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新、ESは安値を更新せず",
+        "notes": "同期済み確定M15足で検出"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T02:15:25.000Z",
+      "updatedAt": "2026-07-26T02:15:25.000Z"
+    },
+    {
+      "id": "smt_20250701_3b2a1577",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1751334300,
+          "price": 22914.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1751391900,
+          "price": 22762.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1751334300,
+          "price": 6257.75,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1751391900,
+          "price": 6261.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新、NQは高値を更新せず",
+        "notes": "同期済み確定M15足で検出"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T02:15:25.000Z",
+      "updatedAt": "2026-07-26T02:15:25.000Z"
+    },
+    {
+      "id": "smt_20250701_7433c4b1",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bullish",
+      "smtMarket": "primary",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1751372100,
+          "price": 22755.75,
+          "priceSource": "low"
+        },
+        "primaryB": {
+          "timestampUtc": 1751382000,
+          "price": 22594.5,
+          "priceSource": "low"
+        },
+        "comparisonA": {
+          "timestampUtc": 1751372100,
+          "price": 6227.25,
+          "priceSource": "low"
+        },
+        "comparisonB": {
+          "timestampUtc": 1751382000,
+          "price": 6227.5,
+          "priceSource": "low"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ安値更新、ESは直前安値を維持",
+        "notes": "同期済み確定M15足で検出"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T02:15:25.000Z",
+      "updatedAt": "2026-07-26T02:15:25.000Z"
+    }
+  ]
+}
