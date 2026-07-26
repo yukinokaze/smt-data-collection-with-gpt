@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T02:31:21.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250703_0330_0645_nq_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1751513400,
+          "price": 22882.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1751525100,
+          "price": 22889.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1751513400,
+          "price": 6284.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1751525100,
+          "price": 6284.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "Asia",
+        "reason": "NQのみ高値更新、ESは同値高値",
+        "notes": "M15の局所高値ペア。約5日分の取得範囲から抽出。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T02:31:21.000Z",
+      "updatedAt": "2026-07-26T02:31:21.000Z"
+    },
+    {
+      "id": "smt_20250703_1530_1630_es_bearish",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1751556600,
+          "price": 23102.5,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1751560200,
+          "price": 23081.75,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1751556600,
+          "price": 6331.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1751560200,
+          "price": 6333.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新、NQは切り下げ",
+        "notes": "M15の局所高値ペア。約5日分の取得範囲から抽出。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T02:31:21.000Z",
+      "updatedAt": "2026-07-26T02:31:21.000Z"
+    }
+  ]
+}
