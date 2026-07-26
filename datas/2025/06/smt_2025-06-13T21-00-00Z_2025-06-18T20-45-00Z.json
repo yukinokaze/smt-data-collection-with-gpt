@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T01:30:25.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250616_57578e39",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1750084200,
+          "price": 22206.75,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1750086900,
+          "price": 22222.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1750084200,
+          "price": 6109.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1750086900,
+          "price": 6105.0,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "NQのみ高値更新",
+        "notes": "M15の同時刻比較。約5日分を走査し、明瞭な高値側SMTを記録。"
+      },
+      "dataQualityFlags": [
+        "missing_data"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T01:30:25.000Z",
+      "updatedAt": "2026-07-26T01:30:25.000Z"
+    }
+  ]
+}
