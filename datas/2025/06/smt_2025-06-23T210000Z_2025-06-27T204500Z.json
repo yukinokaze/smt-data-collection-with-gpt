@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T02:00:28.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250624_1c8f4a7d",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1750791600,
+          "price": 22448.25,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1750793400,
+          "price": 22434.25,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1750791600,
+          "price": 6153.25,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1750793400,
+          "price": 6155.25,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "NY",
+        "reason": "ESのみ高値更新、NQは高値未更新",
+        "notes": "M15の局所高値を比較。約5日分を処理し、定期休場を除く少数の欠損は許容。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T02:00:28.000Z",
+      "updatedAt": "2026-07-26T02:00:28.000Z"
+    }
+  ]
+}
