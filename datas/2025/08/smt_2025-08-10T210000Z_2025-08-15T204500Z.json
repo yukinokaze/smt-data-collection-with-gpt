@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T04:33:27.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250812_6f52bca1",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1755027900,
+          "price": 23950.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1755031500,
+          "price": 23953.5,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1755027900,
+          "price": 6470.0,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1755031500,
+          "price": 6469.75,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "Asia",
+        "reason": "NQのみ高値更新",
+        "notes": "同時刻M15の局所スイング高値を比較。欠損区間をまたぐピボットは除外。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T04:33:27.000Z",
+      "updatedAt": "2026-07-26T04:33:27.000Z"
+    },
+    {
+      "id": "smt_20250814_d3a719e4",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "NQ1!"
+      },
+      "comparisonMarket": {
+        "exchange": "CME_MINI",
+        "symbol": "ES1!"
+      },
+      "points": {
+        "primaryA": {
+          "timestampUtc": 1755115200,
+          "price": 23960.0,
+          "priceSource": "high"
+        },
+        "primaryB": {
+          "timestampUtc": 1755173700,
+          "price": 23965.0,
+          "priceSource": "high"
+        },
+        "comparisonA": {
+          "timestampUtc": 1755115200,
+          "price": 6493.25,
+          "priceSource": "high"
+        },
+        "comparisonB": {
+          "timestampUtc": 1755173700,
+          "price": 6491.5,
+          "priceSource": "high"
+        }
+      },
+      "context": {
+        "session": "London",
+        "reason": "NQのみ高値更新",
+        "notes": "同時刻M15の局所スイング高値を比較。B点後の急落前に成立。欠損区間をまたぐピボットは除外。"
+      },
+      "dataQualityFlags": [
+        "verified"
+      ],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T04:33:27.000Z",
+      "updatedAt": "2026-07-26T04:33:27.000Z"
+    }
+  ]
+}
