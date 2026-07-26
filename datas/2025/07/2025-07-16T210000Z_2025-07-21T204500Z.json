@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-07-26T03:15:28.000Z",
+  "filters": {
+    "format": "json"
+  },
+  "records": [
+    {
+      "id": "smt_20250717_27df0f7c",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1752778800, "price": 23272.0, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1752781500, "price": 23278.0, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1752778800, "price": 6345.5, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1752781500, "price": 6345.0, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新", "notes": "my_ohlc_mcp M15。週末・定時休止を含む欠損は許容。"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T03:15:28.000Z",
+      "updatedAt": "2026-07-26T03:15:28.000Z"
+    },
+    {
+      "id": "smt_20250718_f5fc62c9",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "ideal",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1752819300, "price": 23309.5, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1752844500, "price": 23320.75, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1752819300, "price": 6357.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1752844500, "price": 6353.5, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新", "notes": "my_ohlc_mcp M15。週末・定時休止を含む欠損は許容。"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T03:15:28.000Z",
+      "updatedAt": "2026-07-26T03:15:28.000Z"
+    },
+    {
+      "id": "smt_20250721_ac5ec1a0",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "comparison",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753107300, "price": 23419.25, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753111800, "price": 23404.75, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753107300, "price": 6372.25, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753111800, "price": 6374.0, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "ESのみ高値更新", "notes": "my_ohlc_mcp M15。週末・定時休止を含む欠損は許容。"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T03:15:28.000Z",
+      "updatedAt": "2026-07-26T03:15:28.000Z"
+    },
+    {
+      "id": "smt_20250721_111d0853",
+      "schemaVersion": 1,
+      "status": "active",
+      "smtType": "bearish",
+      "smtMarket": "primary",
+      "qualityLabel": "valid",
+      "timeframe": "15m",
+      "timezone": "Asia/Tokyo",
+      "primaryMarket": {"exchange": "CME_MINI", "symbol": "NQ1!"},
+      "comparisonMarket": {"exchange": "CME_MINI", "symbol": "ES1!"},
+      "points": {
+        "primaryA": {"timestampUtc": 1753111800, "price": 23404.75, "priceSource": "high"},
+        "primaryB": {"timestampUtc": 1753118100, "price": 23423.0, "priceSource": "high"},
+        "comparisonA": {"timestampUtc": 1753111800, "price": 6374.0, "priceSource": "high"},
+        "comparisonB": {"timestampUtc": 1753118100, "price": 6373.25, "priceSource": "high"}
+      },
+      "context": {"session": "NY", "reason": "NQのみ高値更新", "notes": "my_ohlc_mcp M15。週末・定時休止を含む欠損は許容。"},
+      "dataQualityFlags": ["verified"],
+      "duplicateOfIds": [],
+      "createdAt": "2026-07-26T03:15:28.000Z",
+      "updatedAt": "2026-07-26T03:15:28.000Z"
+    }
+  ]
+}
